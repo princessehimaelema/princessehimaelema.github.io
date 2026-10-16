@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en-GB" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Crestline Bank Case Study | Princess Ehima Elema</title>
+  <meta name="description" content="Business case and project charter for a 210-branch bank's digital onboarding and lending transformation: stakeholders, options analysis, NPV and SDLC.">
+  <meta name="author" content="Princess Ehima Elema">
+  <meta name="theme-color" content="#f6f5f1">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Crestline Bank Case Study | Princess Ehima Elema">
+  <meta property="og:description" content="Business case and project charter for a 210-branch bank's digital onboarding and lending transformation: stakeholders, options analysis, NPV and SDLC.">
+  <meta property="og:image" content="https://princessehimaelema.github.io/assets/images/project-02.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../favicon.ico" sizes="any">
+  <link rel="icon" href="../assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="../assets/images/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <script>
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem("theme"); } catch (e) {}
+      if (!t) t = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      document.documentElement.setAttribute("data-theme", t);
+    })();
+  </script>
+</head>
+<body data-base="../">
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+  <symbol id="i-linkedin" viewBox="0 0 24 24"><path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></symbol>
+  <symbol id="i-github" viewBox="0 0 24 24"><path fill="currentColor" d="M12 .5C5.65.5.5 5.65.5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.37-3.87-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a10.9 10.9 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></symbol>
+  <symbol id="i-download" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 3v12m0 0l-4.5-4.5M12 15l4.5-4.5M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-6-6l6 6-6 6"/></symbol>
+  <symbol id="i-back" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M19 12H5m6 6l-6-6 6-6"/></symbol>
+  <symbol id="i-external" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M14 4h6v6m0-6L10 14M18 14v4a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M4 5h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm-1 1l9 7 9-7"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21zm0-9a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4l1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></g></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></symbol>
+  <symbol id="i-doc" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8l-5-5zm0 0v5h5M9 13h6M9 17h6"/></symbol>
+  <symbol id="i-flow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M4 4h6v6H4zM14 14h6v6h-6zM10 7h4a3 3 0 0 1 3 3v4"/></symbol>
+  <symbol id="i-chart" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M4 20V10m6 10V4m6 16v-7m4 7H2"/></symbol>
+  <symbol id="i-tool" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3 5h18v12H3zM8 21h8m-4-4v4"/></symbol>
+  <symbol id="i-people" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm-7 10v-1a6 6 0 0 1 12 0v1m3-10a3 3 0 1 0 0-6m5 16v-1a5 5 0 0 0-3.5-4.8"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></g></symbol>
+  <symbol id="i-layers" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 3l9 5-9 5-9-5 9-5zm-9 9l9 5 9-5M3 16l9 5 9-5"/></symbol>
+  <symbol id="i-briefcase" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3 8h18v12H3zM8 8V5a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v3M3 13h18"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3z"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M12 5v14M5 12h14"/></symbol>
+</svg>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="nav" role="banner">
+  <div class="container">
+    <a class="brand" href="../index.html" aria-label="Princess Ehima Elema, home">
+      <span class="brand-mark" aria-hidden="true">PE</span><span>Princess Ehima Elema</span>
+    </a>
+    <nav aria-label="Main">
+      <ul class="nav-links" id="nav-links">
+        <li><a href="../index.html#home">Home</a></li>
+        <li><a href="../index.html#about">About</a></li>
+        <li><a href="../index.html#experience">Experience</a></li>
+        <li><a href="../index.html#skills">Skills</a></li>
+        <li><a href="../index.html#projects">Projects</a></li>
+        <li><a href="../index.html#contact">Contact</a></li>
+        <li class="mobile-extra">
+          <a class="btn btn-primary btn-sm" href="../assets/documents/Princess-Ehima-Elema-CV.pdf" data-href="resume" target="_blank" rel="noopener"><svg><use href="#i-download"/></svg>Download CV</a>
+          <a class="icon-btn" href="https://www.linkedin.com/in/princessehimaelema" data-href="linkedin" target="_blank" rel="noopener" aria-label="LinkedIn"><svg><use href="#i-linkedin"/></svg></a>
+          <a class="icon-btn" href="https://github.com/princessehimaelema" data-href="github" target="_blank" rel="noopener" aria-label="GitHub"><svg><use href="#i-github"/></svg></a>
+        </li>
+      </ul>
+    </nav>
+    <div class="nav-actions">
+      <a class="icon-btn nav-social" href="https://www.linkedin.com/in/princessehimaelema" data-href="linkedin" target="_blank" rel="noopener" aria-label="LinkedIn"><svg><use href="#i-linkedin"/></svg></a>
+      <a class="icon-btn nav-social" href="https://github.com/princessehimaelema" data-href="github" target="_blank" rel="noopener" aria-label="GitHub"><svg><use href="#i-github"/></svg></a>
+      <button class="icon-btn theme-toggle" type="button" aria-label="Switch to dark mode"><svg class="icon-moon"><use href="#i-moon"/></svg><svg class="icon-sun"><use href="#i-sun"/></svg></button>
+      <a class="btn btn-primary btn-sm" href="../assets/documents/Princess-Ehima-Elema-CV.pdf" data-href="resume" target="_blank" rel="noopener">Resume</a>
+      <button class="icon-btn menu-toggle" type="button" aria-controls="nav-links" aria-expanded="false" aria-label="Open menu"><svg><use href="#i-menu"/></svg></button>
+    </div>
+  </div>
+</header>
+<main id="main">
+
+<section class="cs-hero" aria-labelledby="cs-title">
+  <div class="container">
+    <a class="back" href="../index.html#projects"><svg><use href="#i-back"/></svg>Back to projects</a>
+    <div class="project-cat" style="margin-top:28px">Business Case &amp; Charter <span class="badge">Team capstone</span></div>
+    <h1 id="cs-title">Crestline Bank: Digital Onboarding &amp; Lending Transformation</h1>
+    <p class="lede">A mid-tier bank’s manual onboarding and lending were slowing growth and creating compliance risk across three countries. Our Business Analyst team built the charter, stakeholder analysis, options comparison, 5-year business case and delivery recommendation.</p>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="https://drive.google.com/drive/folders/1uEV4JWCXDU0i0Hxsjpq0cziHI7LvbCKR?usp=sharing" data-href="projects.crestline" target="_blank" rel="noopener">View Full Breakdown <svg><use href="#i-external"/></svg></a>
+      <a class="btn btn-ghost" href="../assets/documents/Princess-Ehima-Elema-CV.pdf" data-href="resume" target="_blank" rel="noopener"><svg><use href="#i-download"/></svg>Download CV</a>
+    </div>
+  </div>
+</section>
+<div class="container"><figure class="cs-cover reveal"><img src="../assets/images/project-02.jpg" alt="Crestline Bank Case Study case study cover" width="1600" height="1000"></figure></div>
+<div class="container">
+  <div class="cs-layout">
+    <ol class="flow"><li class="reveal"><h2>Business problem</h2><h3>Manual processes were capping growth and creating risk</h3><p>Crestline Bank, a mid-tier commercial bank with 210 branches across the United States, Canada and Mexico, relied on paper forms, manual identity and sanctions checks, spreadsheet loan scoring and re-keying across disconnected systems. Each country ran its own process.</p><div class="kpis"><div class="kpi"><div class="num">3.5 days</div><div class="lbl">Average time to open an account</div></div><div class="kpi"><div class="num">38%</div><div class="lbl">Abandon digital onboarding</div></div><div class="kpi"><div class="num">9 days</div><div class="lbl">To approve a retail loan</div></div><div class="kpi"><div class="num">17%</div><div class="lbl">Files with missing KYC or documents</div></div><div class="kpi"><div class="num">$65</div><div class="lbl">Manual cost per application</div></div><div class="kpi"><div class="num">3</div><div class="lbl">Countries, each with different rules</div></div></div><p>This exposed the bank to regulatory findings, fraud and customer losses to faster fintech competitors.</p></li><li class="reveal"><h2>Objective</h2><h3>Meet the Sponsor’s 18-month targets</h3><div class="table-wrap"><table><thead><tr><th>Measure</th><th>Baseline</th><th>Target</th></tr></thead><tbody><tr><td>Account opening time</td><td>3.5 days</td><td>15 minutes (digital)</td></tr><tr><td>Retail loan decision</td><td>9 days</td><td>Within 24 hours</td></tr><tr><td>Digital onboarding abandonment</td><td>38%</td><td>Below 15%</td></tr><tr><td>Files missing KYC or documents</td><td>17%</td><td>Below 3%</td></tr><tr><td>Total investment</td><td>–</td><td>Within $15m cap</td></tr><tr><td>US Midwest pilot</td><td>–</td><td>Live before the annual regulatory exam</td></tr></tbody></table></div></li><li class="reveal"><h2>Approach</h2><h3>Initiate, analyse, compare, justify</h3><p>Working in a Business Analyst team, we treated this as a full project initiation:</p><ul class="ticks"><li>Mapped the current onboarding process and analysed each problem’s evidence, impact and root cause.</li><li>Wrote the project charter: SMART objectives, scope in and out, 12 deliverables, assumptions, constraints, success criteria, governance, stage gates and an 18-month milestone plan.</li><li>Identified and rated 20 stakeholder groups on power, interest, influence and attitude.</li><li>Compared three solution options against seven weighted criteria.</li><li>Built a 5-year financial model with NPV, IRR, ROI, payback and sensitivity analysis, plus a scored risk register.</li><li>Recommended an SDLC approach that works within the regulatory constraints.</li></ul></li><li class="reveal"><h2>Analysis</h2><h3>One root cause behind six problems</h3><p>A 5 Whys analysis showed the six problems were symptoms of one structural cause:</p><ul class="ticks"><li>Onboarding takes 3.5 days because documents are verified by hand after the customer leaves.</li><li>They are verified by hand because identity and sanctions checks run through separate, unconnected portals.</li><li>The portals are not connected because core banking, the loan system, CRM and spreadsheets were never integrated.</li><li>They were never integrated because the core cannot be replaced and no workflow layer sits on top of it.</li><li>There is no workflow layer because the bank has not yet invested in a digital onboarding and lending platform.</li></ul><p>Stakeholder analysis covered 20 groups, including regulators in all three countries, identity and sanctions providers and technology vendors. For a stakeholder base of 200+ (210 branches, 6,500 staff and 4.2 million customers), we proposed a tiered model: named owners for about 10–15 decision makers, representative groups with workshops, and champions and segmented communications in English, French and Spanish for everyone else.</p></li><li class="reveal"><h2>Findings</h2><h3>Buy and integrate was the clear winner</h3><div class="table-wrap"><table><thead><tr><th>Option</th><th class="num">Weighted score (out of 5)</th><th class="num">Investment</th><th class="num">NPV at 10%</th><th>Pilot before exam</th></tr></thead><tbody><tr class="win"><td>B. Buy a platform &amp; integrate</td><td class="num">4.30</td><td class="num">$15.0m</td><td class="num">$30.5m</td><td>Yes (about month 9)</td></tr><tr><td>C. Custom build</td><td class="num">2.80</td><td class="num">$24.0m</td><td class="num">$1.9m</td><td>No (about month 24)</td></tr><tr><td>A. Do nothing</td><td class="num">1.45</td><td class="num">–</td><td class="num">$0.0m</td><td>No</td></tr></tbody></table></div><div class="kpis"><div class="kpi"><div class="num">$30.5m</div><div class="lbl">NPV over 5 years at 10%</div></div><div class="kpi"><div class="num">58.2%</div><div class="lbl">IRR</div></div><div class="kpi"><div class="num">184%</div><div class="lbl">5-year ROI</div></div><div class="kpi"><div class="num">~2 yrs</div><div class="lbl">Payback (1.97 years)</div></div><div class="kpi"><div class="num">2.31x</div><div class="lbl">Benefit-cost ratio</div></div><div class="kpi"><div class="num">56.6%</div><div class="lbl">Benefits could fall before NPV hits zero</div></div></div><p>Custom build would cost about 60% more, deliver far less value and miss the regulatory exam window. Doing nothing is not neutral: onboarding stays slow, 17% of files stay incomplete going into the exam, and customers keep leaving.</p></li><li class="reveal"><h2>Recommendations</h2><h3>Option B, delivered through a hybrid SDLC</h3><ul class="ticks"><li>Approve Option B: buy a digital onboarding and lending-workflow platform and integrate it with the existing core banking platform.</li><li>Deliver through a Hybrid SDLC: Waterfall-style initiation, design, compliance and testing gates wrapped around Agile (Scrum) sprints for build and configuration.</li><li>Launch a US Midwest pilot around month 9, before the regulatory exam, then roll out to the rest of the US, Canada (English and French) and Mexico (Spanish).</li><li>Name a product owner and country compliance leads, and track benefits through a KPI dashboard.</li></ul><div class="callout"><strong>Why hybrid:</strong> pure Waterfall is too slow for an 18-month target and a 38% drop-off problem, while pure Agile cannot give regulators the documented requirements, sign-offs and audit trail banking demands.</div></li><li class="reveal"><h2>Outcome</h2><h3>A Sponsor-ready charter and business case</h3><p>A full project charter and business case for Sponsor approval, supported by an Excel workbook containing the financial model, sensitivity analysis, options matrix, stakeholder register, power-interest grid, RACI covering 15 key activities, communication plan and risk register.</p></li><li class="reveal"><h2>Business impact</h2><h3>Projected value</h3><div class="callout muted">This was a training capstone, so there is no measured real-world impact. The figures below are projections from the case data pack.</div><p>The recommended option was projected to deliver an NPV of $30.5m over 5 years, a 184% ROI and payback in about 2 years, while meeting the Sponsor’s targets for onboarding speed, loan decisions, drop-off, file completeness and the $15m investment cap.</p></li></ol>
+    <aside class="cs-aside reveal" aria-label="Project details"><div class="row"><div class="k">My role</div><div class="v">Business Analyst (team capstone, Business Analysis programme)</div></div><div class="row"><div class="k">Tools</div><div class="v">Microsoft Excel (financial model, sensitivity, options matrix, stakeholder register, RACI, communication plan, risk register) · Microsoft Word (business case &amp; charter)</div></div><div class="row"><div class="k">Methodology</div><div class="v">Project Chartering · 5 Whys · Stakeholder Analysis · Power-Interest Grid · RACI · Weighted Options Analysis · NPV / IRR / ROI / Payback · Sensitivity Analysis · Risk Assessment · Hybrid SDLC</div></div><div class="row"><div class="k">Data source</div><div class="v">Case brief and financial data pack from the training programme (5 years, 10% discount rate, 30/80/100% benefit ramp-up). No real bank data was used.</div></div>
+      <div class="row"><a class="btn btn-primary btn-sm" href="https://drive.google.com/drive/folders/1uEV4JWCXDU0i0Hxsjpq0cziHI7LvbCKR?usp=sharing" data-href="projects.crestline" target="_blank" rel="noopener">View Full Breakdown <svg><use href="#i-external"/></svg></a></div>
+    </aside>
+  </div>
+</div>
+<section class="cs-next"><div class="container">
+  <a href="bright-bank.html"><span><span class="k">Next case study</span><br><span class="t">Bright Bank: Digital Banking Reliability &amp; Transaction Status</span></span><svg><use href="#i-arrow"/></svg></a>
+</div></section>
+</main>
+<footer class="footer">
+  <div class="container">
+    <p>© <span data-year>2026</span> Princess Ehima Elema · Business Analyst · London</p>
+    <div class="links">
+      <a class="icon-btn" href="https://www.linkedin.com/in/princessehimaelema" data-href="linkedin" target="_blank" rel="noopener" aria-label="LinkedIn"><svg><use href="#i-linkedin"/></svg></a>
+      <a class="icon-btn" href="https://github.com/princessehimaelema" data-href="github" target="_blank" rel="noopener" aria-label="GitHub"><svg><use href="#i-github"/></svg></a>
+      <a class="icon-btn" href="mailto:ehimaelema@gmail.com" data-href="email" aria-label="Email"><svg><use href="#i-mail"/></svg></a>
+    </div>
+  </div>
+</footer>
+<script src="../assets/js/data.js"></script>
+<script src="../assets/js/script.js"></script>
+</body>
+</html>
