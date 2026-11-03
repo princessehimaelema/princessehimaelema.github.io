@@ -41,14 +41,14 @@
   var toggle = document.querySelectorAll(".theme-toggle");
   function setTheme(t) {
     root.setAttribute("data-theme", t);
-    try { localStorage.setItem("theme", t); } catch (e) {}
+    try { localStorage.setItem("theme-v2", t); } catch (e) {}
     var meta = document.querySelector('meta[name="theme-color"]');
     if (meta) meta.setAttribute("content", t === "dark" ? "#0e1626" : "#faf8f5");
     toggle.forEach(function (b) {
       b.setAttribute("aria-label", t === "dark" ? "Switch to light mode" : "Switch to dark mode");
     });
   }
-  setTheme(root.getAttribute("data-theme") || "light");
+  setTheme(root.getAttribute("data-theme") || "dark");
   toggle.forEach(function (b) {
     b.addEventListener("click", function () {
       setTheme(root.getAttribute("data-theme") === "dark" ? "light" : "dark");

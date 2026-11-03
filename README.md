@@ -129,4 +129,6 @@ The browser tab icon is `favicon.ico` in the main folder, with `assets/images/fa
 
 ## Dark mode
 
-Visitors can switch between light and dark with the moon and sun button. Their choice is remembered in their browser. The first time they visit, the site follows their device setting.
+The site opens in **dark mode** (navy background with orange highlights). Visitors can switch to light mode with the sun/moon button, and their choice is remembered in their browser.
+
+To make light mode the default instead, change `t = "dark"` to `t = "light"` in the small script near the top of `index.html` and of each page in `projects/`.

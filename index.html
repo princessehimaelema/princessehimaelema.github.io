@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en-GB" class="no-js">
+<html lang="en-GB" class="no-js" data-theme="dark">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,7 +8,7 @@
   <title>Princess Ehima Elema | Business Analyst, London</title>
   <meta name="description" content="Princess Ehima Elema is a London-based Business Analyst with over 10 years in business management and operations, including 5+ years in business analysis. Requirements, process improvement and business intelligence.">
   <meta name="author" content="Princess Ehima Elema">
-  <meta name="theme-color" content="#faf8f5">
+  <meta name="theme-color" content="#0e1626">
   <link rel="canonical" href="https://princessehimaelema.github.io/theanalyst/">
 
   <!-- Open Graph (LinkedIn, WhatsApp, Facebook previews) -->
@@ -41,8 +41,8 @@
   <script>
     (function () {
       var t = null;
-      try { t = localStorage.getItem("theme"); } catch (e) {}
-      if (!t) t = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      try { t = localStorage.getItem("theme-v2"); } catch (e) {}
+      if (!t) t = "dark"; // default look: dark navy. Change to "light" to start in light mode
       document.documentElement.setAttribute("data-theme", t);
     })();
   </script>
