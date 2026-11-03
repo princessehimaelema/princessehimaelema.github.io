@@ -43,7 +43,7 @@
     root.setAttribute("data-theme", t);
     try { localStorage.setItem("theme", t); } catch (e) {}
     var meta = document.querySelector('meta[name="theme-color"]');
-    if (meta) meta.setAttribute("content", t === "dark" ? "#0f1522" : "#f6f5f1");
+    if (meta) meta.setAttribute("content", t === "dark" ? "#0e1626" : "#faf8f5");
     toggle.forEach(function (b) {
       b.setAttribute("aria-label", t === "dark" ? "Switch to light mode" : "Switch to dark mode");
     });
