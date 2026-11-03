@@ -116,7 +116,7 @@ Open `assets/css/style.css`. At the top you'll find:
 - `:root { … }` — light mode colours
 - `[data-theme="dark"] { … }` — dark mode colours
 
-Change `--accent` to change the main highlight colour (currently a calm blue, `#2e5b87`). Change `--bg` and `--ink` for the background and text colours.
+Change `--accent` to change the main highlight colour (currently dark orange, `#b04a17`; `--gold` is the brighter orange used for lines and dots). `--ink` is the navy used for text and buttons. Change `--bg` and `--ink` for the background and text colours.
 
 ## How to change fonts
 
